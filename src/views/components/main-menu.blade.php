@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-between align-items-center
         @if (isset($dataContainer) && $dataContainer == 'fluid') container-fluid @else container @endif">
         <div class="brand">
-            <img src="{{asset('img/logo-ancho-blanco.png')}}" alt="">
+            <img src="{{$dataLogo}}" alt="">
         </div>
         <div class="menu" id="menu">
             <div class="sm-menu-closer">
