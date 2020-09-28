@@ -1,0 +1,26 @@
+{
+    "name": "hexagono/responsive-horizontal-menu",
+    "description": "This package generates a blade component with responsive header-menu function based on bootstrap-flex for standard sites.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hexagono",
+            "email": "hexagono.mx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hexagono\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hexagono\\Menu\\MenuServiceProvider"
+            ]
+        }
+    }
+}
